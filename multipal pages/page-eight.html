@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE EIGHT</title>
+    <style>
+        .main-container {
+            height: 98vh;
+            width: 100vw;
+
+        }
+
+        /* header */
+        .header {
+            height: 15%;
+            width: 100%;
+            background-color: rgb(255, 200, 127);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-one {
+            height: 50%;
+            width: 60%;
+
+        }
+
+        i {
+            font-size: 35px;
+            margin-left: 35%;
+            color: rgb(3, 3, 113);
+        }
+
+        @media (min-width:300px) and (max-width: 350px) {
+            .header {
+                height: 8%;
+                width: 100%;
+                background-color: rgb(255, 200, 127);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .header-one {
+                height: 50%;
+                width: 60%;
+
+            }
+
+            i {
+                font-size: 20px;
+                margin-left: 30%;
+                color: rgb(3, 3, 113);
+
+            }
+
+        }
+
+        /* header finish */
+
+
+        /* first row */
+        .row-one {
+            height: 85%;
+            width: 100;
+            background-color: tomato;
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* navigation bar */
+        .left-box {
+            height: 100%;
+            width: 20%;
+            background-color: #4ac55f;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .first-column {
+            height: 11%;
+            width: 100%;
+            background-color: #57ff1f;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .first-one {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .first-two {
+            height: 100%;
+            width: 80%;
+            background-color: rgb(224, 224, 224);
+        }
+
+        mark {
+            background-color: gray;
+            color: white;
+            font-size: 25px;
+
+        }
+
+        /* nac img */
+        .nav-bar-img {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* nav-text */
+        p {
+            margin-left: 15px;
+            color: black;
+        }
+
+        /* navigation bar finish */
+        .right-box {
+            height: 100%;
+            width: 80%;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-row-one {
+            height: 48%;
+            width: 100%;
+            background-color: #36454f;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        /* product card */
+        .card {
+            height: 90%;
+            width: 20%;
+            border-radius: 20px;
+            margin-top: 1%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        .boxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        .boxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        .boxxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        .image {
+            height: 65%;
+            width: 100%;
+            background-color: violet;
+        }
+
+        .image-text {
+            height: 35%;
+            width: 100%;
+            background-color: rgb(238, 236, 130);
+        }
+
+        /* row two */
+        .card-row-two {
+            height: 48%;
+            width: 100%;
+            background-color: #36454f;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .cards {
+            height: 90%;
+            width: 20%;
+            border-radius: 20px;
+            margin-top: 1%;
+        }
+
+        .first {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        .second {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        .third {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        .fourth {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 81));
+        }
+
+        /* card-img */
+        .card-img {
+            height: 100%;
+            width: 100%;
+
+
+        }
+
+        .text {
+            font-size: 20px;
+            margin-left: 30%;
+        }
+
+        .gram {
+            margin-left: 30%;
+        }
+
+        .price {
+            font-size: 20px;
+            margin-top: 20%;
+            margin-left: 5%;
+
+        }
+
+        button {
+            margin-left: 50%;
+            background-color: green;
+            color: white;
+            border: none;
+            width: 6vh;
+            height: 3vh;
+            font-size: 18px;
+
+
+        }
+
+        @media (min-width:300px) and (max-width:350px) {
+
+            /* first row */
+            .row-one {
+                height: 85%;
+                width: 100;
+                background-color: tomato;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            /* navigation bar */
+            .left-box {
+                height: 100%;
+                width: 20%;
+                background-color: #4ac55f;
+                display: flex;
+                flex-direction: column;
+                display: none;
+
+            }
+
+            .first-column {
+                height: 11%;
+                width: 100%;
+                background-color: #ffec8c;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .first-one {
+                height: 100%;
+                width: 20%;
+                background-color: rgb(255, 255, 255);
+            }
+
+            .first-two {
+                height: 100%;
+                width: 80%;
+                background-color: rgb(255, 255, 255);
+            }
+
+            /* nac img */
+            .nav-bar-img {
+                height: 100%;
+                width: 100%;
+            }
+
+            /* nav-text */
+            p {
+                margin-left: 15px;
+
+            }
+
+            /* navigation bar finish */
+            .right-box {
+                height: 100%;
+                width: 100%;
+                background-color: rgb(255, 253, 149);
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .card-row-one {
+                height: 1600px;
+                width: 100%;
+                background-color: #ffec8c;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            /* product card */
+            .card {
+                height: 50%;
+                width: 100%;
+                margin-top: 1%;
+
+
+            }
+
+            .box {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .boxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .boxxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .boxxxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            /* row two */
+            .card-row-two {
+                height: 600px;
+                width: 100%;
+                background-color: #ffec8c;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .cards {
+                height: 50%;
+                width: 100%;
+                margin-top: 1%;
+            }
+
+            .first {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .second {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .third {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .fourth {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            /* card-img */
+            .card-img {
+                height: 50%;
+                width: 75%;
+                margin-left: 10%;
+                margin-top: 5%;
+            }
+
+            .text {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .price {
+                font-size: 25px;
+                margin-top: 2%;
+                margin-left: 2%;
+
+            }
+
+         
+            button {
+            margin-left: 40%;
+            background-color: green;
+            color: white;
+            border: none;
+            width: 6vh;
+            height: 3vh;
+            font-size: 18px;
+
+
+        }
+        }
+        a{text-decoration: none;}
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- header -->
+        <div class="header">
+            <div class="header-one">
+                <i>⚝ Ice Cream & Chocolates</i>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="row-one">
+            <!-- navigation -->
+            <div class="left-box">
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://m.media-amazon.com/images/I/61dK3VocRLL._SX679_.jpg" alt=""></div>
+                    <div class="first-two">
+                      <a href="./page-one.html">  <p> . Oil Variety</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://www.bbassets.com/media/uploads/p/l/40130470_4-suruchi-masala-goda-classic.jpg"
+                            alt=""></div>
+                    <div class="first-two">
+                      <a href="./page-two.html">  <p>. Suruchi Masala</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://i.pinimg.com/736x/89/25/c6/8925c63910efcd09f915764acecc0a56.jpg" alt="">
+                    </div>
+                    <div class="first-two">
+                       <a href="./page-three.html"> <p>. Rice & Wheat</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://www.bbassets.com/media/uploads/p/l/40190823_3-godrej-no1-no1-bathing-soap-lime-aloe-vera.jpg"
+                            alt=""></div>
+                    <div class="first-two">
+                      <a href="./four.html">  <p>. Soap & ditergent powder</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://thumbs.dreamstime.com/b/lentils-wooden-bowls-above-381813852.jpg" alt=""></div>
+                    <div class="first-two">
+                      <a href="./page-five.html">  <p> . Lentils</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://s7ap1.scene7.com/is/image/itcportalprod/ProductCard_OrginalStyle_Default_Desktop_1360x1360_4x1?fmt=webp-alpha"
+                            alt=""></div>
+                    <div class="first-two">
+                     <a href="./page-six.html">   <p>Snacks Store</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://growstar.in/wp-content/uploads/2021/07/51kQMEbZxL._SL1000_-min-1.jpg" alt="">
+                    </div>
+                    <div class="first-two">
+                      <a href="./page-seven-.html">  <p>. Coldrink</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://static.vecteezy.com/system/resources/previews/044/570/761/non_2x/assortment-of-colorful-ice-cream-scoops-in-waffle-cones-with-fresh-fruits-on-a-transparent-background-png.png"
+                            alt=""></div>
+                    <div class="first-two">
+                       <a href="./page-eight.html"> <p><mark>. Icecream & Chocolates</mark></p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2024/AUGUST/29/cPjFHIla_2f56dbeeadf340bf9f13577b3b29e35f.jpg"
+                            alt=""></div>
+                    <div class="first-two">
+                      <a href="./page-nine.html">  <p>. Beauty & Perfum</p></a>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://i.pinimg.com/736x/6c/a8/f0/6ca8f02f56d48f0daf38063da995e763.jpg" alt=""></div>
+                    <div class="first-two">
+                       <a href="./page-ten-.html"> <p>. Other Variety</p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="right-box">
+
+                <div class="card-row-one">
+                    <div class="card box">
+                        <div class="image"><img class="card-img"
+                                src="https://naturalicecreams.in/wp-content/uploads/2023/11/500GM_Ice-Cream-Container_Mango_Lid-1-300x300.jpg" alt=""></div>
+                        <div class="image-text"><span class="text">Cubs Icecream </span><br><span
+                                class="gram">   </span><br><br><span class="price">₨.220</span><button>
+                                Call</button></div>
+                    </div>
+                    <div class="card boxx">
+                        <div class="image"><img class="card-img"
+                                src="https://cdn.zeptonow.com/production/tr:w-312,ar-1200-1200,pr-true,f-auto,q-80/cms/product_variant/f71becc0-903f-4439-bc43-dd531dff4536.jpeg"
+                                alt=""></div>
+                        <div class="image-text"><span class="text">Cones Icecream</span><br><span
+                                class="gram"></span><br><br><span class="price">₨.40</span><button>
+                                Call</button></div>
+                    </div>
+                    <div class="card boxxx">
+                        <div class="image"><img class="card-img"
+                                src="https://t3.ftcdn.net/jpg/15/20/56/14/360_F_1520561405_lcHzUvoLlD5G2F6iyP9T7xq7W7kNZMPH.jpg" alt=""></div>
+                        <div class="image-text"><span class="text">Sticks Icecream </span><br><span
+                                class="gram"></span><br><br><span class="price">₨.30</span><button>
+                                Call</button></div>
+                    </div>
+                    <div class="card boxxx">
+                        <div class="image"><img class="card-img"
+                                src="https://recipes.timesofindia.com/thumb/84786580.cms?width=1200&height=900"
+                                alt=""></div>
+                        <div class="image-text"><span class="text">kulfi</span><br><span
+                                class="gram"></span><br><br><span class="price">₨.50</span><button>
+                                Call</button></div>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="card-row-two">
+                    <div class=" cards first">
+                        <div class="image"><img class="card-img"
+                                src="https://www.bbassets.com/media/uploads/p/l/40120606_19-cadbury-dairy-milk-silk-valentine-special-gift-pack-heart-pop.jpg"
+                                alt=""></div>
+                        <div class="image-text"><span class="text">Love Dairy Milk</span><br><span
+                            class="gram"></span><br><br><span class="price"> ₨.150</span><button> Call</button></div>
+                    </div>
+                    <div class="cards second">
+                        <div class="image"><img class="card-img"
+                                src="https://www.bbassets.com/media/uploads/p/l/40018531_47-nestle-kitkat-crispy-wafer-bar.jpg"
+                                alt=""></div>
+                        <div class="image-text"><span class="text">Kit kat</span><br><span
+                            class="gram"></span><br><br><span class="price">₨.45</span><button> Call</button></div>
+                    </div>
+                    <div class="cards third">
+                        <div class="image"><img class="card-img"
+                                src="https://m.media-amazon.com/images/I/61VBGByW5zL._UF1000,1000_QL80_.jpg" alt="">
+                        </div>
+                        <div class="image-text"><span class="text">Fuse</span><br><span
+                            class="gram"></span><br><br><span class="price">₨.45</span><button> Call</button></div>
+                    </div>
+                    <div class="cards fourth">
+                        <div class="image"><img class="card-img"
+                                src="https://5.imimg.com/data5/PF/EE/CB/SELLER-23286244/whatsapp-image-2019-11-17-at-2-08-10-pm-500x500.jpeg"
+                                alt=""></div>
+                        <div class="image-text"><span class="text">Dazzy Endor</span><br><span
+                            class="gram"></span><br><br><span class="price">₨.10</span><button> Call</button></div>
+                    </div>
+
+
+                    <!-- child -->
+                </div>
+
+            </div>
+
+        </div>
+</body>
+
+</html>

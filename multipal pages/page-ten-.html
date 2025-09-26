@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE TEN</title>
+    <style>
+        .main-container {
+            height: 98vh;
+            width: 100vw;
+
+        }
+
+        /* header */
+        .header {
+            height: 15%;
+            width: 100%;
+            background-color: rgb(255, 200, 127);
+            display: flex;
+            align-items: center;
+           
+        }
+
+        .header-one {
+            height: 50%;
+            width: 70%;
+        
+         
+            ;
+
+        }
+
+        i {
+            font-size: 35px;
+            margin-left: 30%;
+            color: rgb(3, 3, 113);
+        }
+        .img-button{
+            height: 20%;
+            width: 20%;
+            margin-left: 10%;
+        }
+
+        @media (min-width:300px) and (max-width: 350px) {
+            .header {
+                height: 8%;
+                width: 100%;
+                background-color: rgb(255, 200, 127);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .header-one {
+                height: 50%;
+                width: 60%;
+
+            }
+
+            i {
+                font-size: 20px;
+                margin-left: 30%;
+                color: rgb(3, 3, 113);
+
+            }
+
+        }
+
+        /* header finish */
+
+
+        /* first row */
+        .row-one {
+            height: 100%;
+            width: 100;
+            background-color: tomato;
+            display: flex;
+            flex-direction: row;
+        }
+
+
+
+        /* navigation bar finish */
+        .right-box {
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-row-one {
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            border-radius: 20px;
+
+        }
+
+        /* product card */
+        .card {
+            height: 90%;
+            width: 15%;
+            border-radius: 20px;
+            margin-top: 1%;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgb(0, 0, 0);
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+        .card:hover {
+
+            height: 290px;
+            width: 230px;
+
+
+        }
+
+
+        .box {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .boxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .boxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .boxxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .image {
+            height: 65%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+
+        .image-text {
+            height: 35%;
+            width: 100%;
+        background-color: #d7d7d7;
+            border-radius: 20px;
+        }
+
+        /* row two */
+        .card-row-two {
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .cards {
+            height: 90%;
+            width: 15%;
+            border-radius: 20px;
+            margin-top: 1%;
+            border: 1px solid rgb(0, 0, 0);
+
+        }
+
+        .first {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+
+        /* card-img */
+        .card-img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+
+
+        }
+
+        .text {
+            font-size: 20px;
+            margin-left: 30%;
+        }
+
+        .gram {
+            margin-left: 30%;
+        }
+
+        .price {
+            font-size: 20px;
+            margin-top: 20%;
+            margin-left: 4%;
+
+        }
+
+        button {
+            margin-left: 47%;
+            background-color: green;
+            color: white;
+            border: none;
+            width: 6vh;
+            height: 3vh;
+            font-size: 18px;
+            border-radius: 5px;
+
+
+        }
+
+        @media (min-width:300px) and (max-width:350px) {
+
+            /* first row */
+            .row-one {
+                height: 85%;
+                width: 100;
+                background-color: tomato;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            /* navigation bar */
+            .left-box {
+                height: 100%;
+                width: 20%;
+                background-color: #4ac55f;
+                display: flex;
+                flex-direction: column;
+                display: none;
+
+            }
+
+            .first-column {
+                height: 11%;
+                width: 100%;
+                background-color: #ffec8c;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .first-one {
+                height: 100%;
+                width: 20%;
+                background-color: rgb(255, 255, 255);
+            }
+
+            .first-two {
+                height: 100%;
+                width: 80%;
+                background-color: rgb(255, 255, 255);
+            }
+
+            /* nac img */
+            .nav-bar-img {
+                height: 100%;
+                width: 100%;
+            }
+
+            /* nav-text */
+            p {
+                margin-left: 15px;
+
+            }
+
+            /* navigation bar finish */
+            .right-box {
+                height: 100%;
+                width: 100%;
+                background-color: rgb(255, 253, 149);
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .card-row-one {
+                height: 1600px;
+                width: 100%;
+                background-color: #ffec8c;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            /* product card */
+            .card {
+                height: 50%;
+                width: 100%;
+                margin-top: 1%;
+
+
+            }
+
+            .box {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .boxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .boxxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            .boxxxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+            /* row two */
+            .card-row-two {
+                height: 600px;
+                width: 100%;
+                background-color: #ffec8c;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .cards {
+                height: 50%;
+                width: 100%;
+                margin-top: 1%;
+            }
+
+            .first {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 251, 165));
+            }
+
+
+
+            /* card-img */
+            .card-img {
+                height: 50%;
+                width: 75%;
+                margin-left: 10%;
+                margin-top: 5%;
+            }
+
+            .text {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .price {
+                font-size: 25px;
+                margin-top: 2%;
+                margin-left: 2%;
+
+            }
+
+
+            button {
+                margin-left: 40%;
+                background-color: green;
+                color: white;
+                border: none;
+                width: 6vh;
+                height: 3vh;
+                font-size: 18px;
+
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- header -->
+        <div class="header"> <a href="../designwebsite.html"><img     class="img-button"    src="https://www.effortmark.co.uk/wp-content/uploads/2019/06/back-button-300x300.png" alt=""></a>
+            <div class="header-one">
+                <i>⚝ All PRODUCT</i>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="row-one">
+            <div class="right-box">
+
+                <div class="card-row-one">
+                    <div class="card box">
+                        <div class="image"><img class="card-img"
+                                src="https://www.jiomart.com/images/product/original/590000086/big-coconut-1-pc-approx-350-g-600-g-product-images-o590000086-p590000086-0-202408070949.jpg?im=Resize=(420,420)"
+                                alt=""></div>
+                        <div class="image-text"><br><span class="text">Coconut </span><br><span class="gram">
+                            </span><br><span class="price">₨.40</span><button>
+                                Call</button></div>
+                    </div>
+                    <div class="card boxx">
+                        <div class="image"><img class="card-img"
+                                src="https://freshmills.in/cdn/shop/files/golden-champa-agarbatti-913650.png?v=1717361821&width=1214"
+                                alt=""></div>
+                        <div class="image-text"><br><span class="text">Agarbatti </span><br><span class="gram">
+                            </span><br><span class="price">₨.30</span><button>
+                                Call</button></div>
+                    </div>
+                    <div class="card boxxx">
+                        <div class="image"><img class="card-img"
+                                src="https://5.imimg.com/data5/SELLER/Default/2023/3/291829697/UT/JE/CF/51126755/britannia-bourbon-biscuit.jpg"
+                                alt=""></div>
+                        <div class="image-text"><br><span class="text">Biskat</span><br><span class="gram">
+                            </span><br><span class="price">₨.20</span><button>
+                                Call</button></div>
+                    </div>
+                    <div class="card boxxx">
+                        <div class="image"><img class="card-img"
+                                src="https://m.media-amazon.com/images/I/51Pk9xHMgGL._UF1000,1000_QL80_.jpg" alt="">
+                        </div>
+                        <div class="image-text"><br><span class="text">Detol liquid</span><br><span class="gram">
+                            </span><br><span class="price">₨.49</span><button>
+                                Call</button></div>
+                    </div>
+
+                    <div class=" cards first">
+                        <div class="image"><img class="card-img"
+                                src="https://cdn.shopaccino.com/edible-smart/products/poha-mota-855693_l.jpg?v=599"
+                                alt=""></div>
+                        <div class="image-text"><br><span class="text">Poha</span><br><span class="gram">
+                            </span><br><span class="price">₨.60</span><button>
+                                Call</button></div>
+                    </div>
+
+                </div>
+                <div class="right-box">
+
+                    <div class="card-row-one">
+                        <div class="card box">
+                            <div class="image"><img class="card-img"
+                                    src="   https://thumbs.dreamstime.com/z/back-to-school-concept-books-pencils-18544131.jpg"
+                                    alt=""></div>
+                            <div class="image-text"><br><span class="text">Book & Pencil</span><br><span class="gram">
+                                </span><br><span class="price">₨.30</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxx">
+                            <div class="image"><img class="card-img"
+                                    src="https://images.ctfassets.net/o7fa4pf94cfp/77hAvyYLZevHNIfB3msNwH/8f8ef7f40c77ed2016f7a77de2d35a95/4902430411776_C1N1.jpeg?w=700&fm=webp"
+                                    alt=""></div>
+                            <div class="image-text"><br><span class="text">Shampoo </span><br><span class="gram">
+                                </span><br><span class="price">₨.40</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxxx">
+                            <div class="image"><img class="card-img"
+                                    src="   https://www.dabur.com/Medical%20Plants/Supari.jpg" alt=""></div>
+                            <div class="image-text"><br><span class="text">Supari</span><br><span class="gram">
+                                </span><br><span class="price">₨.50</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxxx">
+                            <div class="image"><img class="card-img"
+                                    src="https://m.media-amazon.com/images/I/61zzyIUgE-L.jpg" alt=""></div>
+                            <div class="image-text"><br><span class="text">Dhoop Agarbatti</span><br><span class="gram">
+                                </span><br><span class="price">₨.25</span><button>
+                                    Call</button></div>
+                        </div>
+
+                        <div class=" cards first">
+                            <div class="image"><img class="card-img"
+                                    src="https://m.media-amazon.com/images/I/51DJqbwK+kL._UF1000,1000_QL80_.jpg" alt="">
+                            </div>
+                            <div class="image-text"><br><span class="text">Bourn Vita</span><br><span class="gram">
+                                </span><br><span class="price"> ₨.120</span><button> Call</button></div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="right-box">
+
+                    <div class="card-row-one">
+                        <div class="card box">
+                            <div class="image"><img class="card-img"
+                                    src="https://m.media-amazon.com/images/I/710r2xXgabL.jpg" alt=""></div>
+                            <div class="image-text"><br><span class="text">Gulab Jamun</span><br><span class="gram">
+                                </span><br><span class="price">₨.99</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxx">
+                            <div class="image"><img class="card-img"
+                                    src="https://m.media-amazon.com/images/I/81Q+4YfT3oL._UF1000,1000_QL80_.jpg" alt="">
+                            </div>
+                            <div class="image-text"><br><span class="text">Achar </span><br><span class="gram">
+                                </span><br><span class="price">₨.209</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxxx">
+                            <div class="image"><img class="card-img"
+                                    src="https://www.jiomart.com/images/product/original/490005239/kissan-pineapple-jam-500-g-product-images-o490005239-p490005239-3-202203151442.jpg?im=Resize=(420,420)"
+                                    alt=""></div>
+                            <div class="image-text"><br><span class="text">Kissan Jam </span><br><span class="gram">
+                                </span><br><span class="price">₨.40</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxxx">
+                            <div class="image"><img class="card-img"
+                                    src="https://m.media-amazon.com/images/I/71S0MymbzTL._UF894,1000_QL80_.jpg" alt="">
+                            </div>
+                            <div class="image-text"><br><span class="text">Tomato ketchup</span><br><span class="gram">
+                                </span><br><span class="price">₨.20</span><button>
+                                    Call</button></div>
+                        </div>
+
+                        <div class=" cards first">
+                            <div class="image"><img class="card-img"
+                                    src="https://m.media-amazon.com/images/I/51z6wHdBrWL._UF1000,1000_QL80_.jpg" alt="">
+                            </div>
+                            <div class="image-text"><br><span class="text">chivda Packet</span><br><span class="gram">
+                                </span><br><span class="price"> ₨.160</span><button> Call</button></div>
+                        </div>
+
+                    </div>
+                    <div class="right-box">
+
+                        <div class="card-row-one">
+                            <div class="card box">
+                                <div class="image"><img class="card-img"
+                                        src="https://m.media-amazon.com/images/I/61S6e7sbjDL.jpg" alt=""></div>
+                                <div class="image-text"><br><span class="text">Melody Packet</span><br><span
+                                        class="gram">
+                                    </span><br><span class="price">₨.80</span><button>
+                                        Call</button></div>
+                            </div>
+                            <div class="card boxx">
+                                <div class="image"><img class="card-img"
+                                        src="https://www.licious.in/blog/wp-content/uploads/2022/01/eggs-1.jpg" alt="">
+                                </div>
+                                <div class="image-text"><br><span class="text">Egg </span><br><span class="gram">
+                                    </span><br><span class="price">₨.7</span><button>
+                                        Call</button></div>
+                            </div>
+                            <div class="card boxxx">
+                                <div class="image"><img class="card-img"
+                                        src="https://www.vridhistores.com/uploads/2023/May/images/16843181501868.png"
+                                        alt=""></div>
+                                <div class="image-text"><br><span class="text">Red Label </span><br><span class="gram">
+                                    </span><br><span class="price">₨.55 </span><button>
+                                        Call</button></div>
+                            </div>
+                            <div class="card boxxx">
+                                <div class="image"><img class="card-img"
+                                        src="https://m.media-amazon.com/images/I/61Br6dM3+KL.jpg" alt=""></div>
+                                <div class="image-text"><br><span class="text">Bru Cofy</span><br><span class="gram">
+                                    </span><br><span class="price">₨.20</span><button>
+                                        Call</button></div>
+                            </div>
+
+                            <div class=" cards first">
+                                <div class="image"><img class="card-img"
+                                        src="https://www.bbassets.com/media/uploads/p/l/40006893-2_2-dalda-vanaspati.jpg"
+                                        alt=""></div>
+                                <div class="image-text"><br><span class="text">Dalda</span><br><span class="gram">
+                                    </span><br><span class="price">₨.45 </span><button>
+                                        Call</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="right-box">
+
+                    <div class="card-row-one">
+                        <div class="card box">
+                            <div class="image"><img class="card-img"
+                                    src="https://www.quickpantry.in/cdn/shop/files/VimDishwashLiquidGel-Lemon120ml.jpg?v=1721151715"
+                                    alt=""></div>
+                            <div class="image-text"><br><span class="text">Vim Gell</span><br><span class="gram">
+                                    c</span><br><span class="price">₨.30</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxx">
+                            <div class="image"><img class="card-img"
+                                    src="data:image/jpeg;base64,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"
+                                    alt=""></div>
+                            <div class="image-text"><br><span class="text">Rin Soap</span><br><span class="gram">
+                                </span><br><span class="price">₨.20</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxxx">
+                            <div class="image"><img class="card-img"
+                                    src="https://hamarishops.com/wp-content/uploads/2022/07/New-LUX-Rose-Vitami.webp"
+                                    alt=""></div>
+                            <div class="image-text"><br><span class="text">Lux Soap</span><br><span class="gram">
+                                </span><br><span class="price">₨.40</span><button>
+                                    Call</button></div>
+                        </div>
+                        <div class="card boxxx">
+                            <div class="image"><img class="card-img"
+                                    src="https://m.media-amazon.com/images/I/714QBduxayL.jpg" alt=""></div>
+                            <div class="image-text"><br><span class="text">Margo Soap</span><br><span class="gram">
+                                </span><br><span class="price">₨.40</span><button>
+                                    Call</button></div>
+                        </div>
+
+                        <div class=" cards first">
+                            <div class="image"><img class="card-img"
+                                    src="https://dayli.in/cdn/shop/files/377208_5.jpg?v=1755888419" alt=""></div>
+                            <div class="image-text"><br><span class="text">No.1 Soap</span><br><span class="gram">
+                                </span><br><span class="price"> ₨.20</span><button> Call</button></div>
+                        </div>
+
+                    </div>
+
+                </div>
+</body>
+
+</html>

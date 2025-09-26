@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page-four</title>
+    <style>
+        .main-container {
+            height: 98vh;
+            width: 100vw;
+          
+        }
+
+        /* header */
+        .header {
+            height: 15%;
+            width: 100%;
+          background: linear-gradient(white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-one {
+            height: 50%;
+            width: 60%;
+
+        }
+
+      i{
+        font-size: 35px;
+        margin-left: 30%;
+        color: rgb(3, 3, 113);
+      }
+
+      @media (min-width:300px) and (max-width: 350px){
+        .header {
+            height: 8%;
+            width: 100%;
+            background-color: rgb(255, 200, 127);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-one {
+            height: 50%;
+            width: 60%;
+
+        }
+
+      i{
+        font-size: 15px;
+        margin-left: 0%;
+        color: rgb(3, 3, 113);
+      
+        
+      }
+
+      }
+        /* header finish */
+
+
+        /* first row */
+        .row-one {
+            height: 85%;
+            width: 100;
+            background-color: tomato;
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* navigation bar */
+        .left-box {
+            height: 100%;
+            width: 20%;
+            background-color: #4ac55f;
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+        .first-column {
+            height: 11%;
+            width: 100%;
+            background-color: #57ff1f;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .first-one {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .first-two {
+            height: 100%;
+            width: 80%;
+            background-color: rgb(115, 115, 115);
+        }
+        mark{
+            background-color: rgb(0, 0, 0);
+            color: white    ;
+            font-size: 25px;
+           
+        }
+
+        /* nac img */
+        .nav-bar-img {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* nav-text */
+        p {
+            margin-left: 15px;
+            color: white;
+        }
+
+        /* navigation bar finish */
+        .right-box {
+            height: 100%;
+            width: 80%;
+            background-color:#ffffff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-row-one {
+            height: 48%;
+            width: 100%;
+            background-color:#949494;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        /* product card */
+        .card {
+            height: 90%;
+            width: 20%;
+            border-radius: 20px;
+            margin-top: 1%;
+        }
+
+        .box {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .boxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255) );
+        }
+
+        .boxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255) );
+        }
+
+        .boxxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        /* row two */
+        .card-row-two {
+            height: 48%;
+            width: 100%;
+            background-color:#a1a1a1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .cards{
+            height: 90%;
+            width: 20%;
+            border-radius: 20px;
+            margin-top: 1%;
+        }
+        .first{
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255) );
+        }
+        .second{
+            background: linear-gradient(rgb(255, 255, 255) ,rgb(255, 255, 255));
+        }
+        .third{
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255) );
+        }
+        .fourth{
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        /* card-img */
+        .card-img {
+            height: 45%;
+            width: 75%;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+
+        .text {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .price {
+            font-size: 25px;
+            margin-top: 2%;
+            margin-left: 2%;
+
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            border: none;
+            width: 20%;
+            height: 10%;
+            font-size: 20px;
+            margin-left: 75%;
+            margin-bottom: 20%;
+            border-radius: 2px;
+        }
+        @media (min-width:300px) and (max-width:350px){
+              /* first row */
+        .row-one {
+            height: 85%;
+            width: 100;
+            background-color: tomato;
+            display: flex;
+            flex-direction: row;
+           
+        }
+
+        /* navigation bar */
+        .left-box {
+            height: 100%;
+            width: 20%;
+            background-color: #4ac55f;
+            display: flex;
+            flex-direction: column;
+            display: none;
+
+        }
+
+        .first-column {
+            height: 11%;
+            width: 100%;
+            background-color: #ffec8c;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .first-one {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .first-two {
+            height: 100%;
+            width: 80%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* nac img */
+        .nav-bar-img {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* nav-text */
+        p {
+            margin-left: 15px;
+           
+        }
+
+        /* navigation bar finish */
+        .right-box {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(255, 253, 149);
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .card-row-one {
+            height: 1600px;
+            width: 100%;
+            background-color: #ffec8c;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        /* product card */
+        .card {
+            height: 50%;
+            width: 100%;
+            margin-top: 1%;
+           
+           
+        }
+
+        .box {
+            background: linear-gradient(rgb(255, 255, 255), rgb(185, 185, 185));
+        }
+
+        .boxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(190, 190, 190));
+        }
+
+        .boxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(196, 196, 196));
+        }
+
+        .boxxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(208, 208, 208));
+        }
+
+        /* row two */
+        .card-row-two {
+            height: 600px;
+            width: 100%;
+            background-color: #ffec8c;
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .cards{
+            height: 50%;
+            width: 100%;
+            margin-top: 1%;
+        }
+        .first{
+            background: linear-gradient(rgb(255, 255, 255), rgb(174, 174, 174));
+        }
+        .second{
+            background: linear-gradient(rgb(255, 255, 255), rgb(178, 178, 178));
+        }
+        .third{
+            background: linear-gradient(rgb(255, 255, 255), rgb(177, 177, 177));
+        }
+        .fourth{
+            background: linear-gradient(rgb(255, 255, 255), rgb(151, 151, 151));
+        }
+
+        /* card-img */
+        .card-img {
+            height: 50%;
+            width: 75%;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+
+        .text {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .price {
+            font-size: 25px;
+            margin-top: 2%;
+            margin-left: 9%;
+
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            border: none;
+            width: 20%;
+            height: 10%;
+            font-size: 30px;
+            margin-left: 75%;
+            margin-bottom: 20%;
+            border-radius: 2px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- header -->
+        <div class="header">
+            <div class="header-one">
+                <i>⚝ Soap & Detergent Powder</i>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="row-one">
+            <!-- navigation -->
+            <div class="left-box">
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://m.media-amazon.com/images/I/61dK3VocRLL._SX679_.jpg" alt=""></div>
+                    <div class="first-two">
+                        <p>. Oil Variety</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://www.bbassets.com/media/uploads/p/l/40130470_4-suruchi-masala-goda-classic.jpg"
+                            alt=""></div>
+                    <div class="first-two">
+                        <p>. Suruchi Masala</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://i.pinimg.com/736x/89/25/c6/8925c63910efcd09f915764acecc0a56.jpg" alt="">
+                    </div>
+                    <div class="first-two">
+                        <p> Rice & Wheat</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://www.bbassets.com/media/uploads/p/l/40190823_3-godrej-no1-no1-bathing-soap-lime-aloe-vera.jpg"
+                            alt=""></div>
+                    <div class="first-two">
+                        <p><mark>  . Soap & ditergent powder</mark> </p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://thumbs.dreamstime.com/b/lentils-wooden-bowls-above-381813852.jpg" alt=""></div>
+                    <div class="first-two">
+                        <p>. Lentils</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://s7ap1.scene7.com/is/image/itcportalprod/ProductCard_OrginalStyle_Default_Desktop_1360x1360_4x1?fmt=webp-alpha"
+                            alt=""></div>
+                    <div class="first-two">
+                        <p>. Snacks Store</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://growstar.in/wp-content/uploads/2021/07/51kQMEbZxL._SL1000_-min-1.jpg" alt="">
+                    </div>
+                    <div class="first-two">
+                        <p>. Coldrink</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://static.vecteezy.com/system/resources/previews/044/570/761/non_2x/assortment-of-colorful-ice-cream-scoops-in-waffle-cones-with-fresh-fruits-on-a-transparent-background-png.png" alt=""></div>
+                    <div class="first-two">
+                        <p>. Icecream</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2024/AUGUST/29/cPjFHIla_2f56dbeeadf340bf9f13577b3b29e35f.jpg"
+                            alt=""></div>
+                    <div class="first-two">
+                        <p>. Beauty & Perfum</p>
+                    </div>
+                </div>
+                <div class="first-column">
+                    <div class="first-one"><img class="nav-bar-img"
+                            src="https://i.pinimg.com/736x/6c/a8/f0/6ca8f02f56d48f0daf38063da995e763.jpg" alt=""></div>
+                    <div class="first-two">
+                        <p>. Other Variety</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="right-box">
+
+                <div class="card-row-one">
+
+                    <div class="card box"><img class="card-img"
+                            src="https://www.santoorstayyoung.com/sites/default/files/Sandalwood.png" alt="">
+                        <div class="text">fortune oil packet</div>
+                        <div class="price"> ₨. 150</div><button>call</button>
+                    </div>
+                 
+                    <div class="card boxx"><img class="card-img"
+                            src="https://pngfile.net/files/preview/960x960/43817436234237mg1cpsjyjkgdwwu3pzsxumk72uqffawqdz1l4ygcqzf8zchvwiefmhmsum1gqinmsd70z58wigl9wuozgsnmhpqcsqwkmutcxne.png"
+                            alt="">
+                        <div class="text">Sarso oil </div>
+                        <div class="price"> ₨. 92</div><button>call</button>
+                    </div>
+                    <div class="card boxxx"><img class="card-img"
+                            src="https://pngfile.net/files/preview/800x800/11589320844n1bg0cy35t54pyrhzqovput7itok717mzuznbf6241pwhhscsdsrbshml7eeeu2lbxygwxsxvuipyippwuhbxzoolh7xzdsdr7w6.png" alt="">
+                        <div class="text">5 litre can</div>
+                        <div class="price"> ₨.725</div><button>call</button>
+                    </div>
+                    <div class="card boxxxx"><img class="card-img"
+                            src="https://www.kindpng.com/picc/m/14-148890_dove-soap-hd-png-download.png"
+                            alt="">
+                        <div class="text"> 15 litre can</div>
+                        <div class="price"> ₨. 1950</div><button>call</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card-row-two">
+                    <div class=" cards first"><img class="card-img"
+                            src="https://m.media-amazon.com/images/I/619HRPW3elL._UF1000,1000_QL80_.jpg" alt="">
+                        <div class="text">Almond Hair Oil</div>
+                        <div class="price"> ₨. 65</div><button>call</button>
+                    </div>
+                    <div class="cards second"><img class="card-img"
+                            src="https://www.bbassets.com/media/uploads/p/l/266951_16-surf-excel-quick-wash-detergent-powder.jpg"
+                            alt="">
+                        <div class="text">parashoot hair oil</div>
+                        <div class="price">₨. 105</div><button>call</button>
+                    </div>
+                    <div class="cards third"><img class="card-img"
+                            src="https://www.bbassets.com/media/uploads/p/l/281513_18-wheel-green-lemon-jasmine-detergent-powder.jpg" alt="">
+                        <div class="text">Kesh king oil</div>
+                        <div class="price">₨. 99</div><button>call</button>
+                    </div>
+                    <div class="cards fourth"><img class="card-img"
+                            src="https://m.media-amazon.com/images/I/71f71ITUtKL.jpg" alt="">
+                        <div class="text">Navratna hair oil</div>
+                        <div class="price">₨.  30</div><button>call</button>
+                    </div>
+                </div>
+                <!-- child -->
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
